@@ -2,8 +2,8 @@
 const toDoList = [];
 
 // Add a function to add a new item to the to-do list
-function addToDoItem(item) {
-  toDoList.push(item);
+function addToDoItem(i) {
+  toDoList.push(i);
 }
 
 // Add a function to remove an item from the to-do list
@@ -39,4 +39,4 @@ removeToDoItem("Clean the house");
 markToDoItemComplete("Write a blog post");
 
 // Display the to-do list again
-displayToDoList();
+displayToDoList(a);
