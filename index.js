@@ -2,10 +2,10 @@
 const toDoList = [];
 
 // Add a function to add a new item to the to-do list
+
 function addToDoItem(item) {
   toDoList.push(item);
 }
-
 // Add a function to remove an item from the to-do list
 function removeToDoItem(item) {
   toDoList.splice(toDoList.indexOf(item), 1);
